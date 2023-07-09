@@ -16,11 +16,11 @@ while True:
 	
 	if op =='+':
 		print(f"{a} + {b} = {a + b}")
-	if op =='-':
+	elif op =='-':
 		print(f"{a} - {b} = {a - b}")
-	if op =='*':
+	elif op =='*':
 		print(f"{a} * {b} = {a * b}")
-	if op =='/':
+	elif op =='/':
 		if b == 0:
 			print("Can't divide on zero!")
 		else:
